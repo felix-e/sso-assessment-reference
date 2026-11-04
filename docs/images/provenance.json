@@ -1,0 +1,9 @@
+{
+  "source_video_basename": "sso-standard-tech.mp4",
+  "note": "User-selected recording screenshots; supplied PNGs copied unchanged. No video included.",
+  "sha256": {
+    "01-rule-catalogue-01m18s.png": "467c4575bc79cc48f380d2da7217cba73e7b23129e4dbf3092a0b38777810756",
+    "02-validator-inputs-02m23s.png": "11645f5809947be455e72847eaaceb55b9c519681ce841c61eeabaceaf2236fe",
+    "feature-final-frame.png": "6dc62b3af6692ad04169679edbb0c9084c227edcd9b33414205d697c1826fd1a"
+  }
+}

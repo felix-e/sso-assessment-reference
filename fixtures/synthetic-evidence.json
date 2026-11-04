@@ -1,0 +1,24 @@
+{
+  "applications": [
+    {
+      "id": "synthetic-portal",
+      "kind": "workforce",
+      "owner": "Synthetic Portal Team",
+      "candidate_service_id": "SYN-SVC-001",
+      "assignment_required": true,
+      "credentials": [
+        {"kind": "app_secret", "lifetime_days": 90},
+        {"kind": "sso_signing_certificate", "lifetime_days": 730},
+        {"kind": "platform_verification", "lifetime_days": null}
+      ]
+    },
+    {
+      "id": "synthetic-worker",
+      "kind": "workload",
+      "owner": "Synthetic Automation Team",
+      "candidate_service_id": "SYN-SVC-002",
+      "credentials": [{"kind": "app_certificate", "lifetime_days": 1095}]
+    },
+    {"id": "synthetic-unresolved", "kind": "workforce"}
+  ]
+}

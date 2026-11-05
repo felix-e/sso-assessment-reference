@@ -26,11 +26,12 @@
       ],
       "sha256": "11645f5809947be455e72847eaaceb55b9c519681ce841c61eeabaceaf2236fe"
     },
-    "feature-intro-final.png": {
-      "source_video_basename": "sso-standard-intro-sanitised.mp4",
-      "frame_index": 11510,
-      "pts_seconds": 249.216667,
-      "last_decoded_frame": true,
+    "feature-intro-04m45s.png": {
+      "source_video_basename": "sso-standard-intro.mp4",
+      "source_video_sha256": "72d2c8a234817ff44dfa07f0a68477ff9a98c031dfe8f95568ae3baf4bc2c3ae",
+      "requested_time": "04:45",
+      "frame_index": 12002,
+      "pts_seconds": 285.0,
       "source_dimensions": [
         2360,
         1576
@@ -41,8 +42,8 @@
         1120,
         650
       ],
-      "purpose": "Remove iPad controls; preserve passport, owner, reason and risk.",
-      "sha256": "73a0d730e87dcc86f3f288dec68c9a322ba6f5373c8906c64f2d66f0d9f7f82f"
+      "purpose": "Preserve passport, owner, reason and risk; exclude unrelated interface.",
+      "sha256": "ab09e271509e786392260245dcc80b2eb84dcc61656aaf4ee8409f5ea45c6e96"
     },
     "reference-flow.png": {
       "source": "../reference-flow.mmd",

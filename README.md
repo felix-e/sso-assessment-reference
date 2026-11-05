@@ -1,5 +1,7 @@
 # SSO assessment reference
 
+Updated: 20261105-2130 AEST
+
 A small, independently authored **public synthetic reference** for offline SSO onboarding checks. It is not a copy, release or complete reproduction of the historical tenant-connected pilot. No tenant access, credentials, network calls or automated remediation are involved.
 
 The evaluator combines synthetic application facts with a separate synthetic CMDB confirmation CSV. It reports individual PASS / FAIL / REVIEW / UNKNOWN / NOT_APPLICABLE results, **never overall application approval**. Intended criteria extend beyond the implemented subset.
@@ -35,7 +37,7 @@ flowchart TD
 │   └── images/
 │       ├── 01-rule-catalogue-01m18s.png
 │       ├── 02-validator-inputs-02m23s.png
-│       ├── feature-intro-final.png
+│       ├── feature-intro-04m45s.png
 │       ├── reference-flow.png
 │       └── provenance.json
 ├── examples/

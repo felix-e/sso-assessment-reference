@@ -2,7 +2,7 @@
 
 ## A boarding pass for SSO
 
-![SSO passport with owner, reason and risk](images/feature-intro-final.png)
+![SSO passport with owner, reason and risk](images/feature-intro-04m45s.png)
 
 An owner, a reason and a reviewable risk belong with the application.
 

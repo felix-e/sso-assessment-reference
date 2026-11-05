@@ -1,0 +1,8 @@
+flowchart TD
+    subgraph Offline[Included offline reference]
+        J[Synthetic JSON facts] --> V[Standard-library evaluator]
+        C[Synthetic confirmation CSV] --> V
+        V --> R[Deterministic Markdown report]
+    end
+    H[Human confirmation and accountability review] -. represented by synthetic fixture only .-> C
+    R -. not approval or automatic audit evidence .-> U[Real-use validation and policy review outside this reference]

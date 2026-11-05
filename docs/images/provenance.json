@@ -1,9 +1,61 @@
 {
-  "source_video_basename": "sso-standard-tech.mp4",
-  "note": "User-selected recording screenshots; supplied PNGs copied unchanged. No video included.",
-  "sha256": {
-    "01-rule-catalogue-01m18s.png": "467c4575bc79cc48f380d2da7217cba73e7b23129e4dbf3092a0b38777810756",
-    "02-validator-inputs-02m23s.png": "11645f5809947be455e72847eaaceb55b9c519681ce841c61eeabaceaf2236fe",
-    "feature-final-frame.png": "6dc62b3af6692ad04169679edbb0c9084c227edcd9b33414205d697c1826fd1a"
+  "images": {
+    "01-rule-catalogue-01m18s.png": {
+      "source_video_basename": "sso-standard-tech.mp4",
+      "requested_time": "01:18",
+      "frame_index": 1134,
+      "pts_seconds": 77.75,
+      "crop_xywh": [
+        315,
+        228,
+        1320,
+        235
+      ],
+      "sha256": "467c4575bc79cc48f380d2da7217cba73e7b23129e4dbf3092a0b38777810756"
+    },
+    "02-validator-inputs-02m23s.png": {
+      "source_video_basename": "sso-standard-tech.mp4",
+      "requested_time": "02:23",
+      "frame_index": 1811,
+      "pts_seconds": 142.966667,
+      "crop_xywh": [
+        310,
+        610,
+        1200,
+        250
+      ],
+      "sha256": "11645f5809947be455e72847eaaceb55b9c519681ce841c61eeabaceaf2236fe"
+    },
+    "feature-intro-final.png": {
+      "source_video_basename": "sso-standard-intro-sanitised.mp4",
+      "frame_index": 11510,
+      "pts_seconds": 249.216667,
+      "last_decoded_frame": true,
+      "source_dimensions": [
+        2360,
+        1576
+      ],
+      "crop_xywh": [
+        500,
+        600,
+        1120,
+        650
+      ],
+      "purpose": "Remove iPad controls; preserve passport, owner, reason and risk.",
+      "sha256": "73a0d730e87dcc86f3f288dec68c9a322ba6f5373c8906c64f2d66f0d9f7f82f"
+    },
+    "reference-flow.png": {
+      "source": "../reference-flow.mmd",
+      "source_sha256": "6baf2230300d993f56962d5af6e4a2b6d23326e567e8df2c854b5c78329c536e",
+      "source_revision": "d4a96304f0a8059b2510d26f395f4e62e647c043",
+      "renderer": "Mermaid 12.3.0 browser bundle",
+      "dimensions": [
+        836,
+        2006
+      ],
+      "scale": 2,
+      "fidelity": "All six nodes and five edges preserved.",
+      "sha256": "eb87a8934d056104e04d31007ffb9d2ca4c8c9bce7ad69b75ae8b3a4bd8d22d2"
+    }
   }
 }

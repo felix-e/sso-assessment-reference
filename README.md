@@ -19,6 +19,8 @@ flowchart TD
     R -. not approval or automatic audit evidence .-> U[Real-use validation and policy review outside this reference]
 ```
 
+[Exported flow image](docs/images/reference-flow.png) · [Mermaid source](docs/reference-flow.mmd).
+
 ## Files
 
 ```text
@@ -29,10 +31,12 @@ flowchart TD
 ├── docs/
 │   ├── evidence-contract.md
 │   ├── recording-frames.md
+│   ├── reference-flow.mmd
 │   └── images/
 │       ├── 01-rule-catalogue-01m18s.png
 │       ├── 02-validator-inputs-02m23s.png
-│       ├── feature-final-frame.png
+│       ├── feature-intro-final.png
+│       ├── reference-flow.png
 │       └── provenance.json
 ├── examples/
 │   ├── assessment-report.md
@@ -68,6 +72,6 @@ The first command regenerates the checked-in [example report](examples/assessmen
 
 See the [evidence contract and status meanings](docs/evidence-contract.md) and [intended criteria / implemented mapping](standard/pilot-criteria.md).
 
-[Selected recording frames](docs/recording-frames.md) show historical catalogue and validator workspace context, not successful execution, adoption or this reference's code. The PNGs are unchanged user-selected screenshots from the user's recording; no full video is included.
+[Screenshots and flow](docs/recording-frames.md) show ownership, assignment and review boundaries. The two code screenshots illustrate the earlier pilot; the exported flow matches this synthetic reference. No image establishes successful execution or adoption.
 
 [MIT](LICENSE) covers newly authored generic code and text, copyright Felix Elliott 2026. The screenshot exclusion does not assert licensing of third-party material.
